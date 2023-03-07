@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,39 +35,31 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .container {
-width: 80vw;
+width: 70vw;
 height: 70vh;
 display: flex;
+
 }
 
 .table {
   border: 1px solid grey;
   border-collapse: collapse;
   width: 50%;
-  height: auto;
+  height: 60%;
   margin-left: 20px;
-
+  flex-grow: 0;
 }
 
 .table-cells {
   border: 1px solid grey;
-  padding: 5px 10px 10px;
-  /* width: 80%; */
-  background-color: none;
-  color: black
+  padding: 5px 10px 10px;   
+  height: 50%;
+  width: 100%;
 }
 
 .cell-for-img {
-/* vertical-align: baseline; */
-padding: 0%;
-height: 50%;
-width: 100%;
-}
-
-.img {
-  width: 100%;
   height: 100%;
 }
